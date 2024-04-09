@@ -25,3 +25,11 @@
 - start client by cd to client
 - run with 'npm run dev'
 - runs on [localhost](http://localhost:5173/)
+
+# Screenshots
+
+Example Graph Schema Layout (in Neo4j browser):
+![Graph DB Schema Layout Example](images/graph_schema1.png)
+
+And a Force-directed Layout of schema accessed from the /schema endpoint, shown in the Vue app:
+![Client Schema Layout](images/schema_force_layout.png)
